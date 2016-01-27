@@ -1,0 +1,24 @@
+{
+  "name": "mongo-mongoose-on-node",
+  "version": "1.0.0",
+  "description": "Playground for mongo native driver and mongoose on node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yuranos87/mongo-mongoose-on-node.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "node"
+  ],
+  "author": "yuranos87",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuranos87/mongo-mongoose-on-node/issues"
+  },
+  "homepage": "https://github.com/yuranos87/mongo-mongoose-on-node#readme"
+}
