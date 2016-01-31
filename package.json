@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/yuranos87/mongo-mongoose-on-node/issues"
   },
-  "homepage": "https://github.com/yuranos87/mongo-mongoose-on-node#readme"
+  "homepage": "https://github.com/yuranos87/mongo-mongoose-on-node#readme",
+  "dependencies": {
+    "mongodb": "^2.1.4"
+  }
 }

@@ -1,2 +1,4 @@
-# mongo-mongoose-on-node
-This will serve as a playground for mongodb. 
+# mongo-mongoose-camo-on-node
+This will serve as a playground for mongodb.
+
+
