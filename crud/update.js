@@ -27,3 +27,7 @@ var updateDocument = function(db, callback) {
             callback(result);
         });
 }
+
+//TODO
+//db.document.update({query_json}, {$push: {json}})
+//db.students.update( { _id: 1 }, { $rename: { 'nickname': 'alias', 'cell': 'mobile' } } )

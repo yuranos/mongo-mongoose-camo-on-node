@@ -1,0 +1,124 @@
+[
+  {
+    "country": "Brazil",
+    "capital": "Brasilia",
+    "population": 205000000,
+    "flag": "to_insert",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -75,
+        25
+      ]
+    },
+    "ethnicity": [
+      {
+        "white": "47%"
+      },
+      {
+        "pardo": "43%"
+      },
+      {
+        "black": "8%"
+      },
+      {
+        "asian": "1%"
+      }
+    ]
+  },
+  {
+    "country": "Argentina",
+    "capital": "Buenoc Aires",
+    "population": 43400000,
+    "flag": "to_insert",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        25,
+        25
+      ]
+    },
+    "ethnicity": [
+      {
+        "europeans": "79%"
+      },
+      {
+        "indigenous": "18%"
+      },
+      {
+        "african": "4.3%"
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "capital": "Madrid",
+    "population": 46500000,
+    "flag": "to_insert",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        25,
+        50
+      ]
+    },
+    "ethnicity": [
+      {
+        "europeans": "89.9%"
+      },
+      {
+        "others": "10.1%"
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "capital": "Rome",
+    "population": 60700000,
+    "flag": "to_insert",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        50,
+        50
+      ]
+    },
+    "ethnicity": [
+      {
+        "italians": "91.9%"
+      },
+      {
+        "others": "8.1%"
+      }
+    ]
+  },
+  {
+    "country": "France",
+    "capital": "Paris",
+    "population": 66600000,
+    "flag": "to_insert",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        50,
+        50
+      ]
+    },
+    "ethnicity": [
+      {
+        "white": "85%"
+      },
+      {
+        "north_african": "10%"
+      },
+      {
+        "black": "3.3%"
+      },
+      {
+        "asian": "1,7%"
+      }
+    ]
+  }
+]
+
+

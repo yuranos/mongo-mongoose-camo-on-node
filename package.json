@@ -1,27 +1,30 @@
 {
-  "name": "mongo-mongoose-on-node",
+  "name": "mongo-mongoose-camo-on-node",
   "version": "1.0.0",
-  "description": "Playground for mongo native driver and mongoose on node",
-  "main": "index.js",
+  "description": "Playground for mongo native driver, mongoose and camo on node",
+  "main": "init.js",
   "scripts": {
-    "test": "test"
+    "test": "jasmine-node test"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/yuranos87/mongo-mongoose-on-node.git"
+    "url": "git+ssh://git@github.com/yuranos87/mongo-mongoose-camo-on-node.git"
   },
   "keywords": [
     "mongo",
     "mongoose",
+    "camo",
     "node"
   ],
   "author": "yuranos87",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yuranos87/mongo-mongoose-on-node/issues"
+    "url": "https://github.com/yuranos87/mongo-mongoose-camo-on-node/issues"
   },
-  "homepage": "https://github.com/yuranos87/mongo-mongoose-on-node#readme",
+  "homepage": "https://github.com/yuranos87/mongo-mongoose-camo-on-node#readme",
   "dependencies": {
+    "jasmine-node": "^1.14.5",
+    "kerberos": "0.0.18",
     "mongodb": "^2.1.4"
   }
 }
