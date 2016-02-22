@@ -1,14 +1,15 @@
 # mongo-mongoose-camo-on-node
-This will serve as a playground for mongodb.
+This will serve as a playground for mongodb with examples of running different basic mongo operations using 3 approaches:
+1. Native Mongo driver;
+2. Mongoose
+3. Camo
 
-Node version manipulations were made based on: https://github.com/coreybutler/nvm-windows
+Node version manipulations on Windows were made based on: https://github.com/coreybutler/nvm-windows
 
 # TODO list:
-2) Create initialisation script
-2) Prepare data and dump it into the project
-1) Decide on a test/mock stack
-2) Cover all existing code with Unit/Integration tests; set up rollbacks; create test suites
-3) Mirror all the logic with equivalent Mongoose code
-4) Mirror all the logic with equivalent Camo code
-5)
+1. Create initialisation script;
+2. Cover all existing code with Integration tests; set up after; set up init;
+3. Mirror all the logic with equivalent Mongoose code;
+4. Mirror all the logic with equivalent Camo code;
+
 

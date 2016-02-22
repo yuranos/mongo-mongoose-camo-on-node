@@ -5,7 +5,7 @@
 
 describe('JavaScript addition operator', function () {
 
-    //beforeSuite (done) ->
+    //beforeAll (done) ->
     //setTimeout((-> window.globalCondition = new Foobar(); done()), 10)
 
     beforeEach(function () {
@@ -13,14 +13,14 @@ describe('JavaScript addition operator', function () {
     });
 
     it('adds two numbers together', function () {
-        expect(1 + 2).toEqual(3);
+        expect(1 + 2).toEqual(4);
     });
 
     beforeEach(function () {
         console.log("Cleaning up DB");
     });
 
-    //afterSuite (done) ->
+    //afterAll (done) ->
     //setTimeout((-> delete window.globalCondition), 1000)
 });
 
