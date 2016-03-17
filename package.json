@@ -5,7 +5,7 @@
   "main": "init.js",
   "scripts": {
     "test": "jasmine-node test"
-  },
+},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/yuranos87/mongo-mongoose-camo-on-node.git"
@@ -26,5 +26,8 @@
     "jasmine-node": "^1.14.5",
     "kerberos": "0.0.18",
     "mongodb": "^2.1.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }

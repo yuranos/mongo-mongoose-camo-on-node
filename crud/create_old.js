@@ -1,5 +1,3 @@
-#!/bin/bash
-
 var MongoClient = require('mongodb').MongoClient
     , assert = require('assert');
 
