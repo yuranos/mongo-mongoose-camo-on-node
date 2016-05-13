@@ -4,8 +4,8 @@
   "description": "Playground for mongo native driver, mongoose and camo on node",
   "main": "init.js",
   "scripts": {
-    "test": "jasmine-node test"
-},
+    "test": "mocha test"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/yuranos87/mongo-mongoose-camo-on-node.git"
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/yuranos87/mongo-mongoose-camo-on-node#readme",
   "dependencies": {
-    "jasmine-node": "^1.14.5",
+    "co": "^4.6.0",
     "kerberos": "0.0.18",
     "mongodb": "^2.1.4"
   },

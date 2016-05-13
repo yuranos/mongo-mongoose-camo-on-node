@@ -3,43 +3,21 @@
  */
 "use strict";
 
-//mongoimport --db test --collection docs --file example2.json
-//mongoimport --db users --collection contacts --file contacts.json
-//mongoimport --db test --collection restaurants --drop --file primer-dataset.json
-//mongoimport --db <db-name> --collection <coll-name> --type json --file seed.json --jsonArray
-
 var MongoClient = require('mongodb').MongoClient,
-        Server = require('mongodb').Server,
-        cp = require('child_process');
+    Server = require('mongodb').Server,
+    exec = require('child_process').exec,
+    test = require('assert');
 
 var db = exports.db;
 
-//var connectionFunction = function (err, db, callback) {
-//    assert.equal(null, err);
-//    console.log("Connected correctly to server");
-//    exports.db = db;
-//    callback(db);
-//}
+exports.dbInit = function (callback) {
+    // Populate Db from the file
+    exec('mongoimport --db countries_db --collection countries --file resource/test-data.json --jsonArray', callback);
+};
 
-exports.dbInit = function() {
-    var mongoclient = new MongoClient(new Server("localhost", 27017), {native_parser: true});
-     //Open the connection to the server
-    mongoclient.open(function(err, mongoclient) {
-        // Get the first db and do an update document on it
-        mongoclient.db("countries");
+exports.dbTearDown = function (callback) {
+    MongoClient.connect('mongodb://localhost:27017/countries_db', function (err, db) {
+        // Let's drop the database
+        db.dropDatabase(callback);
     });
-    mongoclient.close();
-
-    //--db <db-name> --collection <coll-name> --type json --file seed.json --jsonArray
-    // Set up the connection to the local db
-    var mongoimport = cp.spawn('mongoimport',['--db countries', '--collection countries', '--type json',
-        '--file resource/test_data.json', '--jsonArray']);
-
-    mongoimport.stdout.on('data',function(data) {
-        console.log('child:: ' + String(data));
-    });
-}
-
-exports.dbTearDown = function() {
-
-}
+};

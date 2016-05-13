@@ -3,7 +3,7 @@
     "country": "Brazil",
     "capital": "Brasilia",
     "population": 205000000,
-    "picture": "to_insert",
+    "picture": "resource/Brazil.jpg",
     "location": {
       "type": "Point",
       "coordinates": [
@@ -30,7 +30,7 @@
     "country": "Argentina",
     "capital": "Buenoc Aires",
     "population": 43400000,
-    "picture": "to_insert",
+    "picture": "resource/Argentina.jpg",
     "location": {
       "type": "Point",
       "coordinates": [
@@ -54,7 +54,7 @@
     "country": "Spain",
     "capital": "Madrid",
     "population": 46500000,
-    "picture": "to_insert",
+    "picture": "resource/Spain.jpg",
     "location": {
       "type": "Point",
       "coordinates": [
@@ -75,7 +75,7 @@
     "country": "Italy",
     "capital": "Rome",
     "population": 60700000,
-    "picture": "to_insert",
+    "picture": "resource/Italy.jpg",
     "location": {
       "type": "Point",
       "coordinates": [
@@ -96,7 +96,7 @@
     "country": "France",
     "capital": "Paris",
     "population": 66600000,
-    "picture": "to_insert",
+    "picture": "resource/France.jpg",
     "location": {
       "type": "Point",
       "coordinates": [
